@@ -1,0 +1,54 @@
+h1 {
+	text-align: center;
+}
+
+#container {
+	position: relative;
+}
+
+section {
+	border: 2px solid black;
+	margin: 15px;
+	width: 32%;
+	background: gray;
+}
+
+#section1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 200px;
+}
+
+#section2 {
+	position: absolute;
+	top: 0;
+	left: 33%;
+	height: 200px;
+}
+
+#section3 {
+	position: absolute;
+	top: 0;
+	left: 66%;
+	height: 200px;
+	float: right;
+}
+
+#p1, #p2, #p3 {
+	text-align: right;
+	width: 25%;
+	border: 2px black solid;
+	margin-top:0;
+	padding: 5px;
+	background: green;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#p4, #p5, #p6 {
+	padding: 5px;
+	position: absolute;
+	top: 20px;
+}
